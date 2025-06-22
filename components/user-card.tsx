@@ -13,7 +13,7 @@ export default function UserCard({ user }: UserCardProps) {
         <div className="p-6">
           <div className="flex flex-col items-center space-y-4">
             <Image
-              src={user.avatar_url || "/placeholder.svg"}
+              src={user.avatar_url || "placeholder.svg"}
               alt={`${user.login}'s avatar`}
               width={80}
               height={80}
